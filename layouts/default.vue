@@ -1,14 +1,27 @@
 <template>
-  <Nuxt />
+  <div class="content">
+    <Navbar />
+    <Nuxt />
+  </div>
 </template>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body,
 #__layout,
 #__nuxt {
-  width: 100%;
-  height: 100%;
-  display: flex;
+  background: #1b1b1b;
 }
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
 </style>
