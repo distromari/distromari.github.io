@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="flex">
     <Navbar />
     <Nuxt />
   </div>
@@ -16,12 +16,7 @@ html,
 body,
 #__layout,
 #__nuxt {
-  background: #1b1b1b;
-}
-
-.content {
-  display: flex;
-  flex-direction: row;
+  background: #0f0f0f;
 }
 
 </style>

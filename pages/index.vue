@@ -1,8 +1,8 @@
 <template>
-  <div class="mx-96">
+  <div class="mx-80 p-12">
     <custom-header />
     <div class="mt-16">
-      <h1 class="font-bold text-white mb-10 ">
+      <h1 class="font-bold text-white mb-10">
         My recent posts
       </h1>
       <ul>
