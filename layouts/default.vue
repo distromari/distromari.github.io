@@ -1,22 +1,23 @@
 <template>
-  <div class="flex">
-    <Navbar />
-    <Nuxt />
+  <div class="flex flex-col min-h-screen justify-between bg-black">
+    <div class="lg:pl-10 lg:pr-10 md:pl-10 container">
+      <Navbar />
+      <Nuxt />
+    </div>
+    <Footer class="pl-16 pr-40" />
   </div>
 </template>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.container {
+  display: flex;
 }
 
-html,
-body,
-#__layout,
-#__nuxt {
-  background: #0f0f0f;
+@media (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 50px 50px;
+  }
 }
-
 </style>
