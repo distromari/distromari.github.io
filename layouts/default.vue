@@ -4,7 +4,7 @@
       <Navbar />
       <Nuxt />
     </div>
-    <Footer class="pl-16 pr-40" />
+    <Footer class="pl-10 pr-40" />
   </div>
 </template>
 

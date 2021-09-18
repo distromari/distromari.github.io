@@ -1,11 +1,11 @@
 <template>
-  <div class="mt-14 lg:mx-48 lg:h-full">
+  <div class="mt-11 lg:mx-48 lg:h-full">
     <custom-header />
     <div class="mt-20">
       <h1 class="font-bold text-white mb-10">
         <span class="underline">Recent posts</span>
       </h1>
-      <!-- <ul>
+      <ul>
         <li v-for="article of articles" :key="article.slug">
           <div class="flex flex-col border-solid border border-white-400 p-8 mb-5">
             <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
@@ -18,8 +18,7 @@
             </p>
           </div>
         </li>
-      </ul> -->
-      <p class="text-gray-300 font-regular">Empty, for now (´｡• ᵕ •｡`) </p>
+      </ul>
     </div>
   </div>
 </template>

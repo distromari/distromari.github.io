@@ -11,29 +11,31 @@
       </div>
       <div class="about">
         <div>
-          <img src="@/assets/images/me.png" alt="distromari" class="image">
+          <img src="@/assets/images/me1.png" alt="distromari" class="image mb-9">
+          <span>*cat</span>
+          <img src="@/assets/images/cat2.png" alt="distromari" class="image mb-6">
         </div>
         <div>
           <p class="description">
             <span class="font-bold underline text-white mb-5">Mariana</span>
             <span class="mb-3 font-bold">Is a front-end developer.</span>
-            <span>
-              <ul class="mb-3">
-                <li> > Enjoy study new things</li>
-                <li> > Think cats are adorable </li>
-                <li> > Is learning to draw</li>
-                <li> > Is interested in philosophy</li>
-              </ul>
-            </span>
-            <span>Is graduated and work with website development, based in Brazil. Study technologies in order to build beautiful and well-structured applications.</span>
-            <span class="mt-5 font-bold">Technologies that are being learned:</span>
-            <span>
+            <span>Is graduated. Work with website development, based in Brazil. Study technologies to build beautiful and well-structured applications.</span>
+            <span class="font-bold mt-6">Technologies that are being learned:</span>
+            <span class="mb-5">
               <ul>
                 <li>HTML, JS, React.js, Vue.js, CSS, Less, Sass, Vuetify and Tailwind.</li>
               </ul>
             </span>
-            <span class="font-bold underline text-white mt-5 mb-6">Cat</span>
-            <img src="@/assets/images/cat.png" alt="distromari" class="cat-image">
+            <span>
+              <ul class="mb-3">
+                <li> > Enjoy study new things</li>
+                <li> > Think that cats are adorable </li>
+                <li> > Is interested in philosophy</li>
+              </ul>
+            </span>
+            <span>*cat</span>
+            <img src="@/assets/images/cat1.png" alt="distromari" class="cat-image opacity-70">
+            <img src="@/assets/images/me2.png" alt="distromari" class="cat-image mt-10 opacity-70">
           </p>
         </div>
       </div>
