@@ -1,20 +1,20 @@
 <template>
-  <div class="mt-14 lg:mx-48 lg:h-full text-white font-regular mb-40">
+  <div class="mt-11 lg:mx-48 lg:h-full text-white font-regular mb-40">
     <h1 class="font-bold underline text-white">
       Readme
     </h1>
     <div class="text-gray-300">
       <div>
-        <p class="mt-5 mb-8">
+        <p class="mt-5 mb-3">
           Distromari is just a simple nickname, distro + mari. With a conceptual meaning.
+        </p>
+        <p class="mb-4 font-bold hover:underline">
+          <nuxt-link to="/illustrations">
+            > Illustrations
+          </nuxt-link>
         </p>
       </div>
       <div class="about">
-        <div>
-          <img src="@/assets/images/me1.png" alt="distromari" class="image mb-9">
-          <span>*cat</span>
-          <img src="@/assets/images/cat2.png" alt="distromari" class="image mb-6">
-        </div>
         <div>
           <p class="description">
             <span class="font-bold underline text-white mb-5">Mariana</span>
@@ -33,14 +33,21 @@
                 <li> > Is interested in philosophy</li>
               </ul>
             </span>
+            <img src="@/assets/images/me1.png" alt="distromari" class="cat-image mt-10 mb-10 opacity-70">
             <span>*cat</span>
             <img src="@/assets/images/cat1.png" alt="distromari" class="cat-image opacity-70">
-            <img src="@/assets/images/me2.png" alt="distromari" class="cat-image mt-10 opacity-70">
           </p>
+        </div>
+        <div>
+          <span>*cat</span>
+          <img src="@/assets/images/cat2.png" alt="distromari" class="image mb-9">
+          <img src="@/assets/images/me2.png" alt="distromari" class="image mb-6">
         </div>
       </div>
       <div>
-        <p class="font-bold underline text-white mb-5 mt-5">Contact</p>
+        <p class="font-bold underline text-white mb-5 mt-5">
+          Contact
+        </p>
       </div>
     </div>
   </div>
@@ -69,15 +76,14 @@ export default {
   }
 
   .about .image {
-    width: 950px;
-    opacity: 0.8;
+    width: 700px;
+    opacity: 0.7;
     border-radius: 5px;
   }
 
   .description {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
   }
 
   .cat-image {
@@ -99,23 +105,8 @@ export default {
     }
   }
 
-  /* .image-about {
-    position: relative;
-    width: 100%;
-  }
-
-  .description-about {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-  } */
-
   .description-about span {
-      /* color: white; */
-      /* font: bold 24px/45px Helvetica, Sans-Serif; */
-      /* letter-spacing: -1px; */
-      background: rgb(0, 0, 0); /* fallback color */
+      background: rgb(0, 0, 0);
       background: rgba(0, 0, 0, 0.7);
       padding: 10px;
   }

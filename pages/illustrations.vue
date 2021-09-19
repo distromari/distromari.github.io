@@ -1,5 +1,10 @@
 </<template>
-  <div class="mt-14 lg:mx-48 lg:h-full mb-12">
+  <div class="mt-11 lg:mx-48 lg:h-full mb-12">
+    <h1 class="font-bold text-white mb-10 hover:underline">
+      <nuxt-link to="/readme">
+        <- Return
+      </nuxt-link>
+    </h1>
     <h1 class="font-bold text-white mb-10">
       <span class="underline">Illustrations</span>
     </h1>
