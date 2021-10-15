@@ -24,5 +24,8 @@ export default {
   modules: [
     '@nuxt/content'
   ],
-  target: 'static'
+  target: 'static',
+  router: {
+    base: '/'
+  }
 }

@@ -33,15 +33,17 @@
                 <li> > Is interested in philosophy</li>
               </ul>
             </span>
-            <img src="@/assets/images/me1.png" alt="distromari" class="cat-image mt-10 mb-10 opacity-70">
+            <span>*mari</span>
+            <img src="@/assets/images/me1.png" alt="distromari" class="cat-image mb-10">
             <span>*cat</span>
-            <img src="@/assets/images/cat1.png" alt="distromari" class="cat-image opacity-70">
+            <img src="@/assets/images/cat1.png" alt="distromari" class="cat-image opacity-80">
           </p>
         </div>
         <div>
           <span>*cat</span>
           <img src="@/assets/images/cat2.png" alt="distromari" class="image mb-9">
-          <img src="@/assets/images/me2.png" alt="distromari" class="image mb-6">
+          <span>*mari</span>
+          <img src="@/assets/images/me4.jpg" alt="distromari" class="image mb-6">
         </div>
       </div>
       <div>
@@ -77,7 +79,7 @@ export default {
 
   .about .image {
     width: 700px;
-    opacity: 0.7;
+    opacity: 0.8;
     border-radius: 5px;
   }
 
