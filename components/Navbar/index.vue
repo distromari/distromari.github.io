@@ -21,8 +21,8 @@
             </nuxt-link>
           </li>
           <li class="text-white cursor-pointer mt-2 hover:underline">
-            <nuxt-link to="/blog">
-              Blog
+            <nuxt-link to="/notes">
+              Notes
             </nuxt-link>
           </li>
           <li class="text-white cursor-pointer mt-2 hover:underline">

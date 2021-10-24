@@ -6,7 +6,7 @@
     <ul>
       <li v-for="article of articles" :key="article.slug">
         <div class="flex flex-col border-solid border border-white-400 p-8 mb-5">
-          <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+          <NuxtLink :to="{ name: 'notes-slug', params: { slug: article.slug } }">
             <h2 class="font-bold font-colorful">
               {{ article.title }}
             </h2>
