@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/", {data:[{articles:[{slug:"post1",description:"hey.",title:"Index"}]}],fetch:{},mutations:void 0});
