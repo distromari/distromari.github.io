@@ -49,6 +49,6 @@ export default {
   }
 
   .font-colorful {
-    color: #B48EAD;
+    color: #e9a2bd;
   }
 </style>

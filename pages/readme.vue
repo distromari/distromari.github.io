@@ -8,11 +8,6 @@
         <p class="mt-5 mb-3">
           Distromari is just a simple nickname, distro + mari. With a conceptual meaning.
         </p>
-        <p class="mb-4 font-bold hover:underline">
-          <nuxt-link to="/illustrations">
-            > Illustrations
-          </nuxt-link>
-        </p>
       </div>
       <div class="about">
         <div>
@@ -34,7 +29,7 @@
               </ul>
             </span>
             <span>*mari</span>
-            <img src="@/assets/images/me1.png" alt="distromari" class="cat-image mb-10">
+            <img src="@/assets/images/mari1.png" alt="distromari" class="cat-image mb-10">
             <span>*cat</span>
             <img src="@/assets/images/cat1.png" alt="distromari" class="cat-image opacity-80">
           </p>
@@ -43,13 +38,14 @@
           <span>*cat</span>
           <img src="@/assets/images/cat2.png" alt="distromari" class="image mb-9">
           <span>*mari</span>
-          <img src="@/assets/images/me4.jpg" alt="distromari" class="image mb-6">
+          <img src="@/assets/images/mari2.jpg" alt="distromari" class="image mb-6">
         </div>
       </div>
       <div>
         <p class="font-bold underline text-white mb-5 mt-5">
           Contact
         </p>
+        <p>marianahm010 @ gmail . com</p>
       </div>
     </div>
   </div>
@@ -78,7 +74,7 @@ export default {
   }
 
   .about .image {
-    width: 700px;
+    width: 600px;
     opacity: 0.8;
     border-radius: 5px;
   }
@@ -89,7 +85,7 @@ export default {
   }
 
   .cat-image {
-    width: 400px;
+    width: 350px;
     border-radius: 5px;
   }
 
@@ -99,7 +95,7 @@ export default {
     }
 
     .about .image {
-      width: 400px;
+      width: 300px;
     }
 
     .description {

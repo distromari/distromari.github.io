@@ -35,6 +35,11 @@
               Projects
             </nuxt-link>
           </li>
+          <li class="text-white cursor-pointer mt-2 hover:underline">
+            <nuxt-link to="/illustrations">
+              Illustrations
+            </nuxt-link>
+          </li>
         </ul>
       </div>
     </div>
@@ -59,5 +64,10 @@ export default {
 <style>
 .link:hover {
   text-decoration: underline;
+}
+
+a.nuxt-link-exact-active {
+  color: #e9a2bd;
+  font-weight: bold;
 }
 </style>
