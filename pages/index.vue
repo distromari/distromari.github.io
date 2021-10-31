@@ -3,7 +3,7 @@
     <custom-header />
     <div class="mt-20">
       <h1 class="font-bold text-white mb-10">
-        <span class="underline">Recent posts</span>
+        <span class="underline">Recent notes</span>
       </h1>
       <ul>
         <li v-for="article of articles" :key="article.slug">
@@ -24,8 +24,8 @@
 </template>
 
 <script>
+import '@/assets/scss/main.scss'
 import CustomHeader from '../components/Header'
-
 export default {
   components: {
     CustomHeader
@@ -42,13 +42,3 @@ export default {
   }
 }
 </script>
-
-<style lang="css">
-  background {
-    background: #202020;
-  }
-
-  .font-colorful {
-    color: #e9a2bd;
-  }
-</style>

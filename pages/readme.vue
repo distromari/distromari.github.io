@@ -9,107 +9,73 @@
           Distromari is just a simple nickname, distro + mari. With a conceptual meaning.
         </p>
       </div>
-      <div class="about">
+      <div>
+        <p class="underline text-white mb-5">
+          Mariana
+        </p>
+        <p class="mb-3 font-bold">
+          Is a front-end developer.
+        </p>
+        <p>Work with website development, based in Brazil. Study technologies to build beautiful and well-structured applications.</p>
+        <p class="font-bold mt-6">
+          Technologies that are being learned:
+        </p>
+        <p class="mb-5">
+          <ul>
+            <li>HTML, JS, React.js, Vue.js, CSS, Less, Sass, Vuetify and Tailwind.</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+    <p class="underline text-white mb-5">
+      Education
+    </p>
+    <div class="flex flex-col bgd font-regular">
+      <div class="flex flex-row colorful-border p-7">
         <div>
-          <p class="description">
-            <span class="font-bold underline text-white mb-5">Mariana</span>
-            <span class="mb-3 font-bold">Is a front-end developer.</span>
-            <span>Is graduated. Work with website development, based in Brazil. Study technologies to build beautiful and well-structured applications.</span>
-            <span class="font-bold mt-6">Technologies that are being learned:</span>
-            <span class="mb-5">
-              <ul>
-                <li>HTML, JS, React.js, Vue.js, CSS, Less, Sass, Vuetify and Tailwind.</li>
-              </ul>
-            </span>
-            <span>
-              <ul class="mb-3">
-                <li> > Enjoy study new things</li>
-                <li> > Think that cats are adorable </li>
-                <li> > Is interested in philosophy</li>
-              </ul>
-            </span>
-            <span>*mari</span>
-            <img src="@/assets/images/mari1.png" alt="distromari" class="cat-image mb-10">
-            <span>*cat</span>
-            <img src="@/assets/images/cat1.png" alt="distromari" class="cat-image opacity-80">
+          <p class="text-gray-300 font-normal underline">
+            FATEC - Arthur de Azevedo
           </p>
+          <p>Degree in Systems Analysis and Development</p>
+          <p>2016 - 2018</p>
+        </div>
+      </div>
+    </div>
+    <hr class="mt-10 mb-10">
+    <div>
+      <span>
+        <ul class="mb-3">
+          <li> > Enjoy study new things</li>
+          <li> > Think that cats are adorable </li>
+          <li> > Is interested in philosophy</li>
+        </ul>
+      </span>
+      <div class="about">
+        <div class="description">
+          <span>*mari</span>
+          <img src="@/assets/images/mari1.png" alt="distromari" class="image mb-10">
+          <span>*cat</span>
+          <img src="@/assets/images/cat1.png" alt="distromari" class="cat-image opacity-80">
         </div>
         <div>
           <span>*cat</span>
-          <img src="@/assets/images/cat2.png" alt="distromari" class="image mb-9">
+          <img src="@/assets/images/cat2.png" alt="distromari" class="cat-image mb-9">
           <span>*mari</span>
           <img src="@/assets/images/mari2.jpg" alt="distromari" class="image mb-6">
         </div>
       </div>
-      <div>
-        <p class="font-bold underline text-white mb-5 mt-5">
-          Contact
-        </p>
-        <p>marianahm010 @ gmail . com</p>
-      </div>
+    </div>
+    <div>
+      <p class="font-bold underline text-white mb-5 mt-5">
+        Contact
+      </p>
+      <p>marianahm010 @ gmail . com</p>
     </div>
   </div>
 </template>
 
 <script>
+import '@/assets/scss/main.scss'
 export default {
-  components: {}
 }
 </script>
-
-<style lang="css">
-  background {
-    background: #202020;
-  }
-
-  .about {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-  .about-description {
-    position: absolute;
-    width: 100%;
-  }
-
-  .about .image {
-    width: 600px;
-    opacity: 0.8;
-    border-radius: 5px;
-  }
-
-  .description {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .cat-image {
-    width: 350px;
-    border-radius: 5px;
-  }
-
-  @media (max-width: 1020px) {
-    .about {
-      flex-direction: column;
-    }
-
-    .about .image {
-      width: 300px;
-    }
-
-    .description {
-      margin-top: 50px;
-    }
-  }
-
-  .description-about span {
-      background: rgb(0, 0, 0);
-      background: rgba(0, 0, 0, 0.7);
-      padding: 10px;
-  }
-
-  .description-about span.spacer {
-    padding:0 5px;
-  }
-</style>

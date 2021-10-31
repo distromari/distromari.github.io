@@ -19,41 +19,8 @@
   </div>
 </template>
 
-<style>
-  .illustrations {
-    grid-column: 2 / 4;
-    width: 100%;
-    box-sizing: border-box;
-    display: grid;
-    grid-gap: 2em;
-    grid-template-columns: 470px 470px;
-  }
-
-  .illustrations-pixel {
-    grid-column: 2 / 4;
-    width: 100%;
-    box-sizing: border-box;
-    display: grid;
-    grid-gap: 2em;
-    grid-template-columns: 300px 300px 300px;
-  }
-
-  .illustrations img {
-    border-radius: 5px;
-  }
-
-  .illustrations-pixel img {
-    border-radius: 5px;
-  }
-
-  @media (max-width: 1020px) {
-    .illustrations {
-      grid-column: 1 / 4;
-      width: 100%;
-      box-sizing: border-box;
-      display: grid;
-      grid-gap: 2em;
-      grid-template-columns: 400px;
-    }
-  }
-</style>
+<script>
+import '@/assets/scss/main.scss'
+export default {
+}
+</script>

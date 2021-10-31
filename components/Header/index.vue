@@ -3,13 +3,15 @@
     <div class="flex flex-row items-center colorful-border p-7">
       <div>
         <p class="text-gray-300 font-normal">
-          Mari is a brazilian <span class="underline text-white">developer</span>, she loves the magic of building applications. (´･ᴗ･ ` )
+          Hi 👋 Mari, I'm a <span class="underline text-white">front-developer</span>, based in Brazil (´･ᴗ･ ` )
         </p>
       </div>
     </div>
   </header>
 </template>
 
-<style>
-@import '../../assets/css/main.css';
-</style>
+<script>
+import '@/assets/scss/main.scss'
+export default {
+}
+</script>

@@ -8,16 +8,8 @@
   </div>
 </template>
 
-<style>
-.container {
-  display: flex;
+<script>
+import '@/assets/scss/main.scss'
+export default {
 }
-
-@media (max-width: 1024px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    padding: 0 50px 50px 50px;
-  }
-}
-</style>
+</script>

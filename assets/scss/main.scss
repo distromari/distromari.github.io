@@ -1,0 +1,155 @@
+// general
+
+@font-face {
+  font-family: 'Inconsolata', monospace;
+  src: url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Inconsolata', monospace;
+  image-rendering: crisp-edges;
+}
+
+.colorful-border {
+  border: 1px solid #e69c7e;
+}
+
+.font-colorful {
+  color: #e69c7e;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+
+// readme
+
+background {
+  background: #202020;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about-description {
+  position: absolute;
+  width: 100%;
+}
+
+.image {
+  width: 400px;
+  opacity: 0.7;
+  border-radius: 5px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.cat-image {
+  width: 350px;
+  border-radius: 5px;
+}
+
+@media (max-width: 1020px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .image {
+    width: 300px;
+  }
+
+  .description {
+    margin-top: 50px;
+  }
+}
+
+.description-about span {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+.description-about span.spacer {
+  padding:0 5px;
+}
+
+// slug
+
+article {
+  color: white;
+}
+
+.nuxt-content h2 {
+  font-weight: bold;
+  font-size: 28px;
+}
+.nuxt-content h3 {
+  font-weight: bold;
+  font-size: 22px;
+}
+.nuxt-content p {
+  margin-bottom: 20px;
+}
+
+// illustrations
+
+.illustrations {
+  grid-column: 2 / 4;
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: 470px 470px;
+}
+
+.illustrations-pixel {
+  grid-column: 2 / 4;
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: 300px 300px 300px;
+}
+
+.illustrations img {
+  border-radius: 5px;
+}
+
+.illustrations-pixel img {
+  border-radius: 5px;
+}
+
+@media (max-width: 1020px) {
+  .illustrations {
+    grid-column: 1 / 4;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 400px;
+  }
+}
+
+// layouts
+
+.container {
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 50px 50px;
+  }
+}

@@ -12,8 +12,8 @@ export default {
 }
 </script>
 
-<style lang="css">
-  background {
-    background: #202020;
-  }
-</style>
+<script>
+import '@/assets/scss/main.scss'
+export default {
+}
+</script>

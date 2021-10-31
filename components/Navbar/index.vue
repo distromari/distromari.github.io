@@ -17,7 +17,7 @@
         <ul class="list-none flex flex-col font-regular">
           <li class="text-white cursor-pointer hover:underline">
             <nuxt-link to="/">
-              Begin
+              Home
             </nuxt-link>
           </li>
           <li class="text-white cursor-pointer mt-2 hover:underline">
@@ -36,6 +36,12 @@
             </nuxt-link>
           </li>
           <li class="text-white cursor-pointer mt-2 hover:underline">
+            <a href="https://distromari.dev/blog/" target="_blank">
+              📕 My mdzk >
+            </a>
+          </li>
+          <hr class="mt-2">
+          <li class="text-white cursor-pointer mt-2 hover:underline">
             <nuxt-link to="/illustrations">
               Illustrations
             </nuxt-link>
@@ -47,6 +53,7 @@
 </template>
 
 <script>
+import '@/assets/scss/main.scss'
 export default {
   data () {
     return {
@@ -60,14 +67,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.link:hover {
-  text-decoration: underline;
-}
-
-a.nuxt-link-exact-active {
-  color: #e9a2bd;
-  font-weight: bold;
-}
-</style>

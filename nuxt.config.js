@@ -13,14 +13,17 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  css: [
-    '~assets/css/fonts'
-  ],
   components: true,
   buildModules: [
     '@nuxtjs/eslint-module',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/style-resources'
   ],
+  styleResources: {
+    scss: [
+      '~assets/scss/main.scss'
+    ]
+  },
   modules: [
     '@nuxt/content'
   ],
